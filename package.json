@@ -4,7 +4,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NeuraLegion/sectester-js-demo.git"
+    "url": "git+https://github.com/BrightSec/sectester-js-demo.git"
   },
   "author": {
     "name": "Artem Derevnjuk",
@@ -12,7 +12,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/NeuraLegion/sectester-js-demo/issues"
+    "url": "https://github.com/BrightSec/sectester-js-demo/issues"
   },
   "commitlint": {
     "extends": [
@@ -57,7 +57,7 @@
     "test:e2e": "jest --config test/jest-e2e.config.mjs test/e2e",
     "test:sec": "jest --config test/jest-e2e.config.mjs test/sec"
   },
-  "homepage": "https://github.com/NeuraLegion/sectester-js-demo#readme",
+  "homepage": "https://github.com/BrightSec/sectester-js-demo#readme",
   "dependencies": {
     "@mikro-orm/core": "^6.3.13",
     "@mikro-orm/migrations": "^6.3.13",

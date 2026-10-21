@@ -17,7 +17,7 @@
 
 ## About this project
 
-This is a demo project for the [SecTester JS SDK framework](https://github.com/NeuraLegion/sectester-js), with some installation and usage examples. We recommend forking it and playing around, that’s what it’s for!
+This is a demo project for the [SecTester JS SDK framework](https://github.com/BrightSec/sectester-js), with some installation and usage examples. We recommend forking it and playing around, that’s what it’s for!
 
 ## About SecTester
 
@@ -199,7 +199,7 @@ describe('/users', () => {
 });
 ```
 
-The [`@sectester/runner`](https://github.com/NeuraLegion/sectester-js/tree/master/packages/runner) package provides a set of utilities that allows scanning the demo application for vulnerabilities. Let's expand the previous example using the built-in `SecRunner` class:
+The [`@sectester/runner`](https://github.com/BrightSec/sectester-js/tree/master/packages/runner) package provides a set of utilities that allows scanning the demo application for vulnerabilities. Let's expand the previous example using the built-in `SecRunner` class:
 
 ```ts
 let runner!: SecRunner;
@@ -450,7 +450,7 @@ describe('/users', () => {
 });
 ```
 
-Full documentation can be found in the [`@sectester/runner`](https://github.com/NeuraLegion/sectester-js/tree/master/packages/runner) README.
+Full documentation can be found in the [`@sectester/runner`](https://github.com/BrightSec/sectester-js/tree/master/packages/runner) README.
 
 ### Recommended tests
 
@@ -523,8 +523,8 @@ For a full list of CI configuration examples, check out the docs below.
 
 Please read [contributing guidelines here](./CONTRIBUTING.md).
 
-<a href="https://github.com/NeuraLegion/sectester-js-demo/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=NeuraLegion/sectester-js-demo"/>
+<a href="https://github.com/BrightSec/sectester-js-demo/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=BrightSec/sectester-js-demo"/>
 </a>
 
 ## License
